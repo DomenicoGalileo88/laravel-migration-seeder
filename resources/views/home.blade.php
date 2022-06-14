@@ -17,7 +17,7 @@
         Tours in Northern Europe
     </h2>
 
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 gy-3">
+    <div class="row row-cols-1 row-cols-md-2 gy-3">
 
         @forelse($tours as $tour)
 
@@ -26,9 +26,15 @@
                 <img src="{{$tour->img}}" class="card-img-top" alt="">
                 <div class="card-body">
                     <h5 class="card-title">{{$tour->location}}</h5>
-                    <p class="card-text">Tour: {{$tour->duration}}</p>
-                    <p class="card-text">Price: {{$tour->price}}</p>
-                    <a href="#" class="btn btn-primary">More info</a>
+                    <p class="card-text"><strong>Tour:</strong> {{$tour->duration}}</p>
+                    <p class="card-text"><strong>Price:</strong> {{$tour->price}}</p>
+                    <p class="card-text"><strong>Person:</strong> {{$tour->number_travelers}}</p>
+                    <p class="card-text"><strong>Departure:</strong> {{$tour->city_departure}}</p>
+                    <p class="card-text"><strong>Available:</strong> {{$tour->is_available}}</p>
+                    <p class="card-text"><strong>Data from:</strong> {{$tour->date_departure}}</p>
+                    <p class="card-text"><strong>Data to:</strong> {{$tour->date_return}}</p>
+                    <p class="card-text"><strong>Description:</strong> {{$tour->description}}</p>
+
                 </div>
             </div>
         </div>
