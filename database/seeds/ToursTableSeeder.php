@@ -15,7 +15,7 @@ class ToursTableSeeder extends Seeder
         $tours = [
             [
                 'duration' => '8 Day',
-                'img' => 'https://giorgiaboitano.com/2013/05/norvegia-fiordi.jpg?w=820&h=452',
+                'img' => 'https://cdn.logitravel.it/wsimgresize/resize/crop/990/350/cdn.logitravel.it/contenidos/fotos/CIUDADES_990_350/830.jpg?jpegQuality=97',
                 'location' => 'Norway, Oslo, Fjords and Glaciers ',
                 'number_travelers' => 2,
                 'city_departure' => 'Milano, Roma, Napoli, Torino',
@@ -29,7 +29,7 @@ class ToursTableSeeder extends Seeder
 
             [
                 'duration' => '4 Day',
-                'img' => 'image.png',
+                'img' => 'https://cdn.logitravel.it/wsimgresize/resize/crop/990/350/cdn.logitravel.it/contenidos/fotos/CIUDADES_990_350/5744.jpg?jpegQuality=97',
                 'location' => 'Norway, Oslo',
                 'number_travelers' => 2,
                 'city_departure' => 'Milano, Roma, Napoli, Torino',
@@ -44,7 +44,7 @@ class ToursTableSeeder extends Seeder
             [
                 'duration' => '8 Day',
                 'img' => 'https://cdn.logitravel.it/wsimgresize/resize/crop/990/350/cdn.logitravel.it/contenidos/fotos/CIUDADES_990_350/8857.jpg?jpegQuality=97',
-                'location' => 'Iceland, Vik, Reynisfjara',
+                'location' => 'Iceland, Reykjavik, Vik, Reynisfjara',
                 'number_travelers' => 2,
                 'city_departure' => 'Milano, Roma, Napoli, Torino',
                 'date_departure' => '2022-08-11',
@@ -57,8 +57,8 @@ class ToursTableSeeder extends Seeder
 
             [
                 'duration' => '4 Day',
-                'img' => 'https://img1.10bestmedia.com/Images/Photos/384645/Over-view_54_990x660.jpg',
-                'location' => 'Iceland, Reykjavik',
+                'img' => 'https://cdn.logitravel.it/wsimgresize/resize/crop/990/350/cdn.logitravel.it/contenidos/fotos/CIUDADES_990_350/114.jpg?jpegQuality=97',
+                'location' => 'Iceland,Estern Fjords',
                 'number_travelers' => 2,
                 'city_departure' => 'Milano, Roma, Napoli, Torino',
                 'date_departure' => '2022-08-11',

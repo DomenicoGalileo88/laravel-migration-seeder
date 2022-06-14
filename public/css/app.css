@@ -12173,3 +12173,8 @@ fieldset:disabled .btn {
   }
 }
 
+.card {
+  height: 350px;
+  box-shadow: 0 0 10px grey;
+}
+
