@@ -23,7 +23,7 @@ class CreateToursTable extends Migration
             $table->date('date_departure');
             $table->date('date_return');
             $table->boolean('is_available');
-            $table->decimal('price', 6,2);
+            $table->decimal('price', 6, 2);
             $table->text('description')->nullable();
             $table->string('note', 100)->nullable();
             $table->timestamps();
