@@ -14,3 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'TourController@index')->name('home');
+Route::get('/tours.index', 'TourController@travel')->name('tours.index');
+

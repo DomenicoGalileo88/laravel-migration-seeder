@@ -10,8 +10,13 @@ class TourController extends Controller
 {
     public function index()
     {
+        return view('home');
+    }
+
+    public function travel()
+    {
         $tours = Tour::all();
         //dd($tours);
-        return view('home', compact('tours'));
+        return view('tours.index', compact('tours'));
     }
 }
