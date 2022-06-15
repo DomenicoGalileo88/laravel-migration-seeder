@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Tour;
 
-use Illuminate\Http\Request;
 
 class TourController extends Controller
 {
@@ -17,6 +16,11 @@ class TourController extends Controller
     {
         $tours = Tour::all();
         //dd($tours);
-        return view('tours.index', compact('tours'));
+        return view('travel.index', compact('tours'));
+    }
+
+    public function show(Tour $travel)
+    {
+        return view('travel.show', compact('travel'));
     }
 }
